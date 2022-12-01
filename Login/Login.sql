@@ -1,0 +1,10 @@
+create database db2;
+use db2;
+create table available(user_id int,user_name varchar(20),password varchar(20));
+insert into available values(001,'rahul','rahul@98');
+insert into available values(002,'arun','arun@98');
+insert into available values(003,'sahul','sahul@99');
+insert into available values(004,'vyshnav','vyshnav@98');
+insert into available values(005,'jishnu','jishnu@99');
+insert into available values(006,'gopan','gopan@20');
+select *from available;
